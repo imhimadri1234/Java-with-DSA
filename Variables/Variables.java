@@ -34,5 +34,11 @@ public class Variables{
         int d=sh.nextInt();
         int summ=c+d;
         System.out.println(summ);
+
+        //print pattern
+        System.out.println("*");
+        System.out.println("**");
+        System.out.println("***");
+        System.out.println("****");
     }
 }
