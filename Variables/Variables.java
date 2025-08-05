@@ -1,25 +1,38 @@
 import java.util.Scanner;
 
-public class Variables {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in); // Move Scanner inside main
+public class Variables{
+    public static void main(String args[])
+    {
+        System.out.println("Hello World");
 
-        int a = 10;
-        int b = 20;
-        int sum = a + b;
-        int mul=a*b;
-        System.out.println("Sum: " + sum);
-        System.out.println("mul: " + mul);
+        //variables
+        String name="Himadri Das";
+        int age=25;
+        double price=25.24;
+        int a=25;
+        int b=10;
 
-        // Input
-        System.out.print("Enter your name: ");
-        String name = sc.nextLine(); // Corrected nextLine()
-        System.out.println("Hello, " + name);
- //print the pattern
-    System.out.println("*");
-    System.out.println("**");
-    System.out.println("***");
-    System.out.println("****");
+        b=20;
+        name="ironman";
+        int sum=a+b;
+        int diff=a-b;
+
+        System.out.println(name);
+        System.out.println(sum);
+        System.out.println(diff);
+
+        //Input
+        Scanner sc=new Scanner(System.in);
+        String name2=sc.nextLine();
+        System.out.println("Hello :"+ name2);
+
+
+        //take two variables and sum them
+
+        Scanner sh=new Scanner(System.in);
+        int c=sh.nextInt();
+        int d=sh.nextInt();
+        int summ=c+d;
+        System.out.println(summ);
     }
-
 }
