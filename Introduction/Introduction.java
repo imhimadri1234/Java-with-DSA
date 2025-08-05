@@ -1,9 +1,7 @@
-class Introduction
-{
+class Introduction{
     public static void main(String args[])
-    //first program
+    // first program
     {
-        System.out.println("hello world");
+        System.out.println("Hello World");
     }
-    
 }
