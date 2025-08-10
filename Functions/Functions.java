@@ -11,14 +11,14 @@ public class Functions {
     // }
 
 
-    // public static void main(String args[])
+    // // public static void main(String args[])
     // {
     //     Scanner sc=new Scanner(System.in);
     //     String name=sc.next();
     //     printMyName(name);
     // }
 
-    //make a function to add 2 numbers and return the sum
+    // //make a function to add 2 numbers and return the sum
     
     // public static int calculateSum(int a,int b)
     // {
@@ -34,7 +34,7 @@ public class Functions {
     //     System.out.println("sum of two numbers:" +sum);
     // }
 
-    //make a function to multiply 2 numbers and return the product
+    // //make a function to multiply 2 numbers and return the product
     
     // public static int calculateProduct(int c, int d)
     // {
