@@ -44,18 +44,13 @@ public class Arrays
             b[c]=ab.nextInt();
         }
         int d=ab.nextInt();
-        for(int c=0;c<=b.length;c++)
+        for(int c=0;c<b.length;c++)
         {
             if(b[c]==d)
             {
                 System.out.println("d is found at index:"+c);
             }
         }
-
-
-
-
-
 
     }
 }
